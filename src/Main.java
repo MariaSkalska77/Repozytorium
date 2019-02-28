@@ -5,11 +5,13 @@ public class Main {
         System.out.println("Witaj");
         System.out.println("Maria");*/
 
-        int marysia = 15;
+       int marysia = 15;
                 System.out.println(marysia);
 
+char c =346;
+int symbol = c;
 
-
+        System.out.println("symbol = "+ symbol);
 
 
     }
