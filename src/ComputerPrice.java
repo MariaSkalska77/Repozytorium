@@ -1,27 +1,35 @@
 public class ComputerPrice {
 
-    static double getComputerPrice(int plytaGlowna, int pamiecRam, int dyskTwardy, int vat){
-            double resultOfComputerPrice = (plytaGlowna + pamiecRam + dyskTwardy + vat);
-            return resultOfComputerPrice;}
+    private int plytaGlowna;
+    private int dyskTwardy;
+    private int pamiecRam;
+    private int monitor;
+    private double vat;
 
-    static double getMonitorPrice(int monitor, double vat){
-        double resultOfMonitorPrice = monitor + vat;
-        return resultOfMonitorPrice;
+    public ComputerPrice() {
+        this.plytaGlowna = plytaGlowna;
+        this.dyskTwardy = dyskTwardy;
+        this.pamiecRam = pamiecRam;
+        this.monitor = monitor;
+        this.vat = vat;
     }
-    static double getFinalPrice(int plytaGlowna, int pamiecRam, int dyskTwardy, int monitor, int vat){
-
-    }
-
-    public static void main(String[] args) {
-
-        int plytaGlowna = 15;
-        int pamiecRam = 20;
-        int dyskTwardy = 30;
-        int monitor = 10;
-        int suma = 75;
-        double vat = suma* 0.23;
-        System.out.println();
-
+    public double getComputerPrice() {
+        ComputerPrice price = new ComputerPrice();
+        price.plytaGlowna = 15;
+        price.dyskTwardy = 20;
+        price.pamiecRam = 25;
+        price.vat = 0.23;
+        return (plytaGlowna + dyskTwardy + pamiecRam)+ (plytaGlowna + dyskTwardy + pamiecRam)*vat;
 
     }
-}
+    static double getMonitorPrice(){
+        ComputerPrice price1 = new ComputerPrice();
+        price1.monitor = 10;
+        return (price1.monitor);
+
+        }
+    public double finalPrice(){
+        return getComputerPrice() + getMonitorPrice();
+    }
+
+    }
