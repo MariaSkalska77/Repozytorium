@@ -3,6 +3,7 @@ public class Car {
 
         private String genre;
         private String brand;
+        private String model;
 
 
     @Override
