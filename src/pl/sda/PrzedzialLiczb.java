@@ -1,3 +1,5 @@
+package pl.sda;
+
 import java.util.Scanner;
 public class PrzedzialLiczb {
     public static void main(String[] args) {

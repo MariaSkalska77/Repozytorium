@@ -1,3 +1,5 @@
+package pl.sda;
+
 public class Triangle {
 
     public boolean isRectangular(int a, int b, int c) {

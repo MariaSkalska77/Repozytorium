@@ -1,3 +1,5 @@
+package pl.sda;
+
 public class ZadanieTest1 {
 
     int nowaMetoda(int Liczba){
