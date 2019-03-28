@@ -1,4 +1,4 @@
-package encapsulation;
+package pl.sda.encapsulation;
 
 public class Vehicle {
     // możliwe stany pojazdu

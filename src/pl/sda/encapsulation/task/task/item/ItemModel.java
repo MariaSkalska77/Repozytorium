@@ -1,4 +1,4 @@
-package encapsulation.task.task.item;
+package pl.sda.encapsulation.task.task.item;
 
 public class ItemModel {
     String title;

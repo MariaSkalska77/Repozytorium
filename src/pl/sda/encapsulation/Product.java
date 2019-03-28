@@ -1,4 +1,4 @@
-package encapsulation;
+package pl.sda.encapsulation;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;

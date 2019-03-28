@@ -1,4 +1,4 @@
-package encapsulation.task.task.user;
+package pl.sda.encapsulation.task.task.user;
 
 public class UserManager {
     private UserModel user;

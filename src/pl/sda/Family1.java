@@ -1,3 +1,5 @@
+package pl.sda;
+
 public class Family1 {
 
     Person dad;
@@ -25,7 +27,7 @@ public class Family1 {
 
     @Override
     public String toString() {
-        return "Family1{" +
+        return "pl.sda.Family1{" +
                 "dad=" + dad +
                 ", mum=" + mum +
                 ", child=" + child +

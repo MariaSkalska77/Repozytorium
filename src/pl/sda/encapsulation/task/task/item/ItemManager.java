@@ -1,4 +1,4 @@
-package encapsulation.task.task.item;
+package pl.sda.encapsulation.task.task.item;
 
 public class ItemManager {
     ItemModel createShopItem(String title, String description, double price) {
