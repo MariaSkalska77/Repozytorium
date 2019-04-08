@@ -27,7 +27,7 @@ public class Family1 {
 
     @Override
     public String toString() {
-        return "pl.sda.Family1{" +
+        return "Family1{" +
                 "dad=" + dad +
                 ", mum=" + mum +
                 ", child=" + child +

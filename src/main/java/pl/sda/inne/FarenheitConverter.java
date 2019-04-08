@@ -1,3 +1,5 @@
+package pl.sda.inne;
+
 public class FarenheitConverter {
 
     static double convertToCelsius(int xfarenheit){

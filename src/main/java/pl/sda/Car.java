@@ -10,7 +10,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return "pl.sda.Car{" +
+        return "Car{" +
                 "genre='" + genre + '\'' +
                 ", brand='" + brand + '\'' +
                 '}';

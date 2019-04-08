@@ -1,3 +1,5 @@
+package pl.sda.inne;
+
 public class ComputerPrice {
 
     private int plytaGlowna;

@@ -1,3 +1,5 @@
+package pl.sda.inne;
+
 import java.util.Scanner;
 
 public class DniTygodnia {
