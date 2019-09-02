@@ -23,10 +23,7 @@ public class NBP {
         for (int i = 0; i < tablicaKursow.length; i++) {
             System.out.println(sciagnijKurs(tablicaKursow[i]));
         }
-//        //ile kupimy za 100zl
-//        for (int i = 0; i < tablicaKursow.length; i++) {
-//            System.out.println("za 100zl kupisz" + (100 / Double.parseDouble(getExchange(sciagnijKurs(tablicaKursow[i])))));
-//        }
+
     }
 
     public static String getExchange(Kurs kurs) {
